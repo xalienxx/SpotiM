@@ -6,6 +6,7 @@
       "value": ""},
     "CHANNEL_CHAT_ID":{
       "description": "You Channel chat_id",
+      "required": false,
       "value": ""}
   },
   "buildpacks": [
