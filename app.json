@@ -3,7 +3,8 @@
   "env": {
     "BOT_TOKEN": {
       "description": "You bot token",
-      "value": ""},
+      "value": ""}
+  },
   "buildpacks": [
     {
       "url": "heroku/python"
