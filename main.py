@@ -48,7 +48,7 @@ def download_song(update, context, link):
         song.SongMetaData()
         caption = f'Track: {song.trackName}\nAlbum: {song.album}\nArtist: {song.artist}'
         context.bot.send_audio(chat_id=update.effective_chat.id, audio=open(f'{song.trackName}.mp3', 'rb'),
-                               caption=caption, title=song.trackName)
+                               caption=caption, title=song.trackName, timeout=600)
     except:
         context.bot.send_sticker(chat_id=update.effective_chat.id,
                                  sticker='CAACAgQAAxkBAAIFSWBF_m3GHUtZJxQzobvD_iWxYVClAAJuAgACh4hSOhXuVi2-7-xQHgQ')
