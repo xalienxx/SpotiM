@@ -56,7 +56,7 @@ def download_song(update, context, link):
 
 
 WELCOME = '''Hi
-This is Nima's bot!
+This is Spotify Downloader!
 You can use the command.'''
 ARTISTS_MESSAGE = '''send name and name of artist like this: Name artist'''
 SINGLE_MESSAGE = '''send name and name of artist like this:
@@ -69,7 +69,6 @@ Name album
 or for better search use this:
 Name album - Name artist
 '''
-
 sort = {}
 
 
