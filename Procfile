@@ -1,1 +1,1 @@
-worker: python3 spotify.py
+worker: python3 main.py
